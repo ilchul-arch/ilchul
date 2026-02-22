@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>무료 견적 신청 | 일출</title>
+	<meta name="description" content="일출은 철거, 인테리어, 잡철 수거를 전문으로 하는 믿을 수 있는 업체입니다. 무료 견적 신청, 빠른 상담 가능합니다." />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@300;400;500;600;700;800&display=swap"
+		rel="stylesheet" />
+	<link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+	<!-- ====== HEADER ====== -->
+	<header class="header" id="top">
+		<div class="header__inner container">
+			<a href="index.html" class="logo">
+				<span class="logo__text">일<span class="logo__accent">출</span></span>
+			</a>
+			<nav class="nav" id="mainNav">
+				<a href="index.html#services" class="nav__link">서비스</a>
+				<a href="index.html#gallery" class="nav__link">시공 사례</a>
+				<a href="index.html#trust" class="nav__link">회사 소개</a>
+				<a href="index.html#contact" class="nav__link">문의</a>
+			</nav>
+			<a href="estimate.html" class="btn btn--primary btn--sm">무료 견적 신청</a>
+			<button class="hamburger" id="hamburger" aria-label="메뉴 열기">
+				<span></span><span></span><span></span>
+			</button>
+		</div>
+	</header>
+
+	<main style="padding-top: var(--header-h); min-height: 80vh; background: var(--clr-bg-2);">
+		<!-- ====== ESTIMATE FORM ====== -->
+		<section class="estimate section" id="estimate">
+			<div class="container">
+				<div class="section__header" data-animate>
+					<span class="section__eyebrow">Free Quote</span>
+					<h2 class="section__title">무료 견적 신청</h2>
+					<p class="section__subtitle">아래 정보를 입력하시면<br>건축·인테리어 전문가가 빠르게 견적을 안내드립니다</p>
+				</div>
+				<div class="estimate__wrapper" data-animate>
+					<form class="estimate__form" id="estimateForm" novalidate
+						style="background: #fff; padding: 3rem; border-radius: var(--radius-xl); box-shadow: var(--shadow-sm);">
+						<div class="form__row">
+							<div class="form__group">
+								<input type="text" id="name" name="name" class="form__input" placeholder="성함 *"
+									required />
+								<span class="form__error" id="nameError"></span>
+							</div>
+							<div class="form__group">
+								<input type="tel" id="phone" name="phone" class="form__input"
+									placeholder="연락처 (010-0000-0000) *" required />
+								<span class="form__error" id="phoneError"></span>
+							</div>
+						</div>
+						<div class="form__group">
+							<input type="text" id="address" name="address" class="form__input" placeholder="시공 주소 *"
+								required />
+							<span class="form__error" id="addressError"></span>
+						</div>
+						<div class="form__group">
+							<select id="service" name="service" class="form__select" required>
+								<option value="">서비스の種類를 선택하세요 *</option>
+								<option value="demolition">철거</option>
+								<option value="interior">인테리어</option>
+								<option value="scrap">잡철 수거</option>
+								<option value="combined">복합 시공</option>
+							</select>
+							<span class="form__error" id="serviceError"></span>
+						</div>
+						<div class="form__group">
+							<textarea id="message" name="message" class="form__textarea"
+								placeholder="추가 요청사항 (시공 면적, 특이사항 등을 적어주세요)" rows="5"></textarea>
+						</div>
+						<button type="submit" class="btn btn--primary btn--full btn--lg" id="submitBtn"
+							style="margin-top: 1rem;">
+							견적 신청하기
+						</button>
+					</form>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<!-- ====== FOOTER ====== -->
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__inner">
+				<div class="footer__brand">
+					<span class="logo__text" style="font-size:1.5rem">일<span class="logo__accent">출</span></span>
+					<p>철거·인테리어·잡철 전문 업체<br>정식 사업자 등록 업체</p>
+				</div>
+				<div class="footer__links">
+					<a href="index.html#services">서비스</a>
+					<a href="index.html#gallery">시공 사례</a>
+					<a href="index.html#trust">회사 소개</a>
+					<a href="estimate.html">견적 신청</a>
+					<a href="index.html#contact">문의</a>
+				</div>
+				<div class="footer__contact">
+					<a href="tel:010-4190-8040">📞 010-4190-8040</a>
+					<a href="mailto:jjyjjy4189@hanmail.net">✉️ jjyjjy4189@hanmail.net</a>
+				</div>
+			</div>
+			<div class="footer__bottom">
+				<p>© 2026 일출. All rights reserved.</p>
+			</div>
+		</div>
+	</footer>
+
+	<!-- ====== FLOATING MENU ====== -->
+	<div class="floating-menu" id="floatingMenu">
+		<a href="estimate.html" class="floating-menu__item floating-menu__item--primary" title="견적 신청">
+			<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+				<path
+					d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
+			</svg>
+			<span>견적 신청</span>
+		</a>
+		<a href="tel:010-4190-8040" class="floating-menu__item" title="전화 문의">
+			<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+				<path
+					d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.7 9.65a19.79 19.79 0 01-3.07-8.67A2 2 0 012.6 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.56a16 16 0 006.13 6.13l.96-.96a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" />
+			</svg>
+			<span>전화 문의</span>
+		</a>
+		<button class="floating-menu__item floating-menu__top" id="scrollTop" title="위로 가기">
+			<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+				<polyline points="18 15 12 9 6 15" />
+			</svg>
+			<span>위로</span>
+		</button>
+	</div>
+
+	<div class="toast" id="toast"></div>
+	<script type="module" src="main.js"></script>
+</body>
+
+</html>

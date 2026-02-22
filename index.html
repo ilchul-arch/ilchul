@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>일출 | 철거·인테리어·잡철 전문</title>
+  <meta name="description" content="일출은 철거, 인테리어, 잡철 수거를 전문으로 하는 믿을 수 있는 업체입니다. 무료 견적 신청, 빠른 상담 가능합니다." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ====== HEADER ====== -->
+  <header class="header" id="top">
+    <div class="header__inner container">
+      <a href="#top" class="logo">
+        <span class="logo__text">일<span class="logo__accent">출</span></span>
+      </a>
+      <nav class="nav" id="mainNav">
+        <a href="#services" class="nav__link">서비스</a>
+        <a href="#gallery" class="nav__link">시공 사례</a>
+        <a href="#trust" class="nav__link">회사 소개</a>
+        <a href="#contact" class="nav__link">문의</a>
+      </nav>
+      <a href="estimate.html" class="btn btn--primary btn--sm">무료 견적 신청</a>
+      <button class="hamburger" id="hamburger" aria-label="메뉴 열기">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ====== HERO ====== -->
+  <section class="hero" id="hero">
+    <div class="hero__bg">
+      <img src="image/철거1.jpeg" alt="철거 현장" class="hero__bg-img active" id="heroBg" />
+    </div>
+    <div class="hero__overlay"></div>
+    <div class="hero__content container">
+      <div class="hero__badge">전문 철거·인테리어·잡철 업체</div>
+      <h1 class="hero__title">
+        확실하고 빠른<br>
+        <span class="hero__title-accent">철거 & 인테리어</span><br>
+        전문 솔루션
+      </h1>
+      <p class="hero__subtitle">
+        풍부한 경험과 전문 인력으로<br>
+        깔끔하고 안전한 시공을 약속드립니다
+      </p>
+      <div class="hero__cta">
+        <a href="estimate.html" class="btn btn--primary btn--lg">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path
+              d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
+          </svg>
+          무료 견적 신청
+        </a>
+        <a href="tel:010-4190-8040" class="btn btn--outline btn--lg">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path
+              d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.7 9.65a19.79 19.79 0 01-3.07-8.67A2 2 0 012.6 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.56a16 16 0 006.13 6.13l.96-.96a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" />
+          </svg>
+          010-4190-8040
+        </a>
+      </div>
+    </div>
+    <div class="hero__scroll-indicator">
+      <div class="hero__scroll-dot"></div>
+    </div>
+  </section>
+
+  <!-- ====== STATS ====== -->
+  <section class="stats">
+    <div class="container stats__grid">
+      <div class="stats__item" data-animate>
+        <span class="stats__number" data-target="500">0</span><span class="stats__unit">+</span>
+        <p class="stats__label">누적 시공 건수</p>
+      </div>
+      <div class="stats__item" data-animate>
+        <span class="stats__number" data-target="20">0</span><span class="stats__unit">년</span>
+        <p class="stats__label">업계 경력</p>
+      </div>
+      <div class="stats__item" data-animate>
+        <span class="stats__number" data-target="99.9" data-float="true">0</span><span class="stats__unit">%</span>
+        <p class="stats__label">고객 만족</p>
+      </div>
+      <div class="stats__item" data-animate>
+        <span class="stats__number" data-target="24">0</span><span class="stats__unit">시간</span>
+        <p class="stats__label">빠른 견적 응답</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== SERVICES ====== -->
+  <section class="services section" id="services">
+    <div class="container">
+      <div class="section__header" data-animate>
+        <span class="section__eyebrow">Services</span>
+        <h2 class="section__title">전문 서비스</h2>
+        <p class="section__subtitle">철거부터 인테리어, 잡철 수거까지<br>원스톱으로 해결해드립니다</p>
+      </div>
+      <div class="services__grid">
+        <div class="service-card" data-animate>
+          <div class="service-card__img-wrap">
+            <img src="image/철거3.jpeg" alt="철거 서비스" class="service-card__img" loading="lazy" />
+            <div class="service-card__badge">철거</div>
+          </div>
+          <div class="service-card__body">
+            <h3 class="service-card__title">건물 철거</h3>
+            <p class="service-card__desc">주택, 상가, 공장 등 모든 종류의 건물 철거를 안전하고 신속하게 진행합니다. 완파·내부철거 모두 가능합니다.</p>
+            <ul class="service-card__list">
+              <li>주택·상가 완파 철거</li>
+              <li>실내 내부 철거</li>
+              <li>원상복구 및 마감 처리</li>
+            </ul>
+            <a href="estimate.html" class="service-card__link">견적 신청 →</a>
+          </div>
+        </div>
+        <div class="service-card" data-animate>
+          <div class="service-card__img-wrap">
+            <img src="image/인테리어1.jpeg" alt="인테리어 서비스" class="service-card__img" loading="lazy" />
+            <div class="service-card__badge service-card__badge--orange">인테리어</div>
+          </div>
+          <div class="service-card__body">
+            <h3 class="service-card__title">인테리어 시공</h3>
+            <p class="service-card__desc">철거 후 깔끔한 인테리어 시공까지 원스톱으로 제공합니다. 공간의 가치를 높이는 전문 시공을 경험하세요.</p>
+            <ul class="service-card__list">
+              <li>바닥·벽·천장 마감</li>
+              <li>상가·사무실 인테리어</li>
+              <li>리모델링 전체 시공</li>
+            </ul>
+            <a href="estimate.html" class="service-card__link">견적 신청 →</a>
+          </div>
+        </div>
+        <div class="service-card" data-animate>
+          <div class="service-card__img-wrap">
+            <img src="image/잡철1.jpeg" alt="잡철 수거 서비스" class="service-card__img" loading="lazy" />
+            <div class="service-card__badge service-card__badge--green">잡철</div>
+          </div>
+          <div class="service-card__body">
+            <h3 class="service-card__title">잡철 수거</h3>
+            <p class="service-card__desc">고철, 잡철 등 각종 폐자재를 빠르게 수거·처리합니다. 환경 친화적인 방식으로 재활용 처리합니다.</p>
+            <ul class="service-card__list">
+              <li>고철·잡철 수거</li>
+              <li>폐자재 처리</li>
+              <li>공장·현장 정리</li>
+            </ul>
+            <a href="estimate.html" class="service-card__link">견적 신청 →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== GALLERY ====== -->
+  <section class="gallery section" id="gallery">
+    <div class="container">
+      <div class="section__header" data-animate>
+        <span class="section__eyebrow">Portfolio</span>
+        <h2 class="section__title">시공 사례</h2>
+        <p class="section__subtitle">직접 완료한 실제 시공 사례를 확인하세요</p>
+      </div>
+      <div class="gallery__tabs" data-animate>
+        <button class="gallery__tab active" data-tab="demolition" id="tab-demolition">철거</button>
+        <button class="gallery__tab" data-tab="interior" id="tab-interior">인테리어</button>
+        <button class="gallery__tab" data-tab="scrap" id="tab-scrap">잡철</button>
+        <button class="gallery__tab" data-tab="all" id="tab-all">전체</button>
+      </div>
+
+      <!-- 철거 -->
+      <div class="gallery__grid active" id="gallery-demolition">
+        <div class="gallery__item" data-src="image/철거1.jpeg"><img src="image/철거1.jpeg" alt="철거 사례 1" loading="lazy" />
+          <div class="gallery__overlay"><span>철거</span></div>
+        </div>
+        <div class="gallery__item" data-src="image/철거2.jpeg"><img src="image/철거2.jpeg" alt="철거 사례 2" loading="lazy" />
+          <div class="gallery__overlay"><span>철거</span></div>
+        </div>
+        <div class="gallery__item" data-src="image/철거3.jpeg"><img src="image/철거3.jpeg" alt="철거 사례 3" loading="lazy" />
+          <div class="gallery__overlay"><span>철거</span></div>
+        </div>
+        <div class="gallery__item" data-src="image/철거4.jpeg"><img src="image/철거4.jpeg" alt="철거 사례 4" loading="lazy" />
+          <div class="gallery__overlay"><span>철거</span></div>
+        </div>
+        <div class="gallery__item" data-src="image/철거5.jpeg"><img src="image/철거5.jpeg" alt="철거 사례 5" loading="lazy" />
+          <div class="gallery__overlay"><span>철거</span></div>
+        </div>
+        <div class="gallery__item" data-src="image/철거6.jpeg"><img src="image/철거6.jpeg" alt="철거 사례 6" loading="lazy" />
+          <div class="gallery__overlay"><span>철거</span></div>
+        </div>
+        <div class="gallery__item" data-src="image/철거7.jpeg"><img src="image/철거7.jpeg" alt="철거 사례 7" loading="lazy" />
+          <div class="gallery__overlay"><span>철거</span></div>
+        </div>
+        <div class="gallery__item" data-src="image/철거8.jpeg"><img src="image/철거8.jpeg" alt="철거 사례 8" loading="lazy" />
+          <div class="gallery__overlay"><span>철거</span></div>
+        </div>
+        <div class="gallery__item" data-src="image/철거9.jpeg"><img src="image/철거9.jpeg" alt="철거 사례 9" loading="lazy" />
+          <div class="gallery__overlay"><span>철거</span></div>
+        </div>
+        <div class="gallery__item" data-src="image/철거10.jpeg"><img src="image/철거10.jpeg" alt="철거 사례 10"
+            loading="lazy" />
+          <div class="gallery__overlay"><span>철거</span></div>
+        </div>
+      </div>
+
+      <!-- 인테리어 -->
+      <div class="gallery__grid" id="gallery-interior">
+        <div class="gallery__item" data-src="image/인테리어1.jpeg"><img src="image/인테리어1.jpeg" alt="인테리어 사례 1"
+            loading="lazy" />
+          <div class="gallery__overlay"><span>인테리어</span></div>
+        </div>
+        <div class="gallery__item" data-src="image/인테리어2.jpeg"><img src="image/인테리어2.jpeg" alt="인테리어 사례 2"
+            loading="lazy" />
+          <div class="gallery__overlay"><span>인테리어</span></div>
+        </div>
+        <div class="gallery__item" data-src="image/인테리어3.jpeg"><img src="image/인테리어3.jpeg" alt="인테리어 사례 3"
+            loading="lazy" />
+          <div class="gallery__overlay"><span>인테리어</span></div>
+        </div>
+        <div class="gallery__item" data-src="image/인테리어4.jpeg"><img src="image/인테리어4.jpeg" alt="인테리어 사례 4"
+            loading="lazy" />
+          <div class="gallery__overlay"><span>인테리어</span></div>
+        </div>
+        <div class="gallery__item" data-src="image/인테리어5.jpeg"><img src="image/인테리어5.jpeg" alt="인테리어 사례 5"
+            loading="lazy" />
+          <div class="gallery__overlay"><span>인테리어</span></div>
+        </div>
+        <div class="gallery__item" data-src="image/인테리어6.jpeg"><img src="image/인테리어6.jpeg" alt="인테리어 사례 6"
+            loading="lazy" />
+          <div class="gallery__overlay"><span>인테리어</span></div>
+        </div>
+        <div class="gallery__item" data-src="image/인테리어7.jpeg"><img src="image/인테리어7.jpeg" alt="인테리어 사례 7"
+            loading="lazy" />
+          <div class="gallery__overlay"><span>인테리어</span></div>
+        </div>
+        <div class="gallery__item" data-src="image/인테리어8.jpeg"><img src="image/인테리어8.jpeg" alt="인테리어 사례 8"
+            loading="lazy" />
+          <div class="gallery__overlay"><span>인테리어</span></div>
+        </div>
+        <div class="gallery__item" data-src="image/인테리어9.jpeg"><img src="image/인테리어9.jpeg" alt="인테리어 사례 9"
+            loading="lazy" />
+          <div class="gallery__overlay"><span>인테리어</span></div>
+        </div>
+      </div>
+
+      <!-- 잡철 -->
+      <div class="gallery__grid" id="gallery-scrap">
+        <div class="gallery__item" data-src="image/잡철1.jpeg"><img src="image/잡철1.jpeg" alt="잡철 사례 1" loading="lazy" />
+          <div class="gallery__overlay"><span>잡철</span></div>
+        </div>
+        <div class="gallery__item" data-src="image/잡철2.jpeg"><img src="image/잡철2.jpeg" alt="잡철 사례 2" loading="lazy" />
+          <div class="gallery__overlay"><span>잡철</span></div>
+        </div>
+        <div class="gallery__item" data-src="image/잡철3.jpeg"><img src="image/잡철3.jpeg" alt="잡철 사례 3" loading="lazy" />
+          <div class="gallery__overlay"><span>잡철</span></div>
+        </div>
+        <div class="gallery__item" data-src="image/잡철4.jpeg"><img src="image/잡철4.jpeg" alt="잡철 사례 4" loading="lazy" />
+          <div class="gallery__overlay"><span>잡철</span></div>
+        </div>
+        <div class="gallery__item" data-src="image/잡철5.jpeg"><img src="image/잡철5.jpeg" alt="잡철 사례 5" loading="lazy" />
+          <div class="gallery__overlay"><span>잡철</span></div>
+        </div>
+        <div class="gallery__item" data-src="image/잡철6.jpeg"><img src="image/잡철6.jpeg" alt="잡철 사례 6" loading="lazy" />
+          <div class="gallery__overlay"><span>잡철</span></div>
+        </div>
+        <div class="gallery__item" data-src="image/잡철7.jpeg"><img src="image/잡철7.jpeg" alt="잡철 사례 7" loading="lazy" />
+          <div class="gallery__overlay"><span>잡철</span></div>
+        </div>
+        <div class="gallery__item" data-src="image/잡철8.jpeg"><img src="image/잡철8.jpeg" alt="잡철 사례 8" loading="lazy" />
+          <div class="gallery__overlay"><span>잡철</span></div>
+        </div>
+        <div class="gallery__item" data-src="image/잡철9.jpeg"><img src="image/잡철9.jpeg" alt="잡철 사례 9" loading="lazy" />
+          <div class="gallery__overlay"><span>잡철</span></div>
+        </div>
+        <div class="gallery__item" data-src="image/잡철10.jpeg"><img src="image/잡철10.jpeg" alt="잡철 사례 10"
+            loading="lazy" />
+          <div class="gallery__overlay"><span>잡철</span></div>
+        </div>
+        <div class="gallery__item" data-src="image/잡철11.jpeg"><img src="image/잡철11.jpeg" alt="잡철 사례 11"
+            loading="lazy" />
+          <div class="gallery__overlay"><span>잡철</span></div>
+        </div>
+        <div class="gallery__item" data-src="image/잡철12.jpeg"><img src="image/잡철12.jpeg" alt="잡철 사례 12"
+            loading="lazy" />
+          <div class="gallery__overlay"><span>잡철</span></div>
+        </div>
+        <div class="gallery__item" data-src="image/잡철13.jpeg"><img src="image/잡철13.jpeg" alt="잡철 사례 13"
+            loading="lazy" />
+          <div class="gallery__overlay"><span>잡철</span></div>
+        </div>
+      </div>
+
+      <!-- 전체 -->
+      <div class="gallery__grid" id="gallery-all">
+        <div class="gallery__item" data-src="image/철거1.jpeg"><img src="image/철거1.jpeg" alt="철거 사례" loading="lazy" />
+          <div class="gallery__overlay"><span>철거</span></div>
+        </div>
+        <div class="gallery__item" data-src="image/인테리어1.jpeg"><img src="image/인테리어1.jpeg" alt="인테리어 사례"
+            loading="lazy" />
+          <div class="gallery__overlay"><span>인테리어</span></div>
+        </div>
+        <div class="gallery__item" data-src="image/잡철1.jpeg"><img src="image/잡철1.jpeg" alt="잡철 사례" loading="lazy" />
+          <div class="gallery__overlay"><span>잡철</span></div>
+        </div>
+        <div class="gallery__item" data-src="image/철거2.jpeg"><img src="image/철거2.jpeg" alt="철거 사례" loading="lazy" />
+          <div class="gallery__overlay"><span>철거</span></div>
+        </div>
+        <div class="gallery__item" data-src="image/인테리어2.jpeg"><img src="image/인테리어2.jpeg" alt="인테리어 사례"
+            loading="lazy" />
+          <div class="gallery__overlay"><span>인테리어</span></div>
+        </div>
+        <div class="gallery__item" data-src="image/잡철2.jpeg"><img src="image/잡철2.jpeg" alt="잡철 사례" loading="lazy" />
+          <div class="gallery__overlay"><span>잡철</span></div>
+        </div>
+        <div class="gallery__item" data-src="image/철거3.jpeg"><img src="image/철거3.jpeg" alt="철거 사례" loading="lazy" />
+          <div class="gallery__overlay"><span>철거</span></div>
+        </div>
+        <div class="gallery__item" data-src="image/인테리어3.jpeg"><img src="image/인테리어3.jpeg" alt="인테리어 사례"
+            loading="lazy" />
+          <div class="gallery__overlay"><span>인테리어</span></div>
+        </div>
+        <div class="gallery__item" data-src="image/잡철3.jpeg"><img src="image/잡철3.jpeg" alt="잡철 사례" loading="lazy" />
+          <div class="gallery__overlay"><span>잡철</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== TRUST ====== -->
+  <section class="trust section" id="trust">
+    <div class="container">
+      <div class="section__header" data-animate>
+        <span class="section__eyebrow">Trust</span>
+        <h2 class="section__title">투명하고 믿을 수 있는 업체</h2>
+        <p class="section__subtitle">정식 사업자 등록된 전문 업체로<br>투명하고 정직하게 운영합니다</p>
+      </div>
+      <div class="trust__grid">
+        <div class="trust__license" data-animate>
+          <div class="trust__license-label">사업자등록증</div>
+          <img src="image/사업자등록증.jpeg" alt="사업자등록증" class="trust__license-img" loading="lazy" />
+          <p class="trust__license-caption">정식 등록된 전문 업체</p>
+        </div>
+        <div class="trust__features" data-animate>
+          <div class="trust__feature">
+            <div class="trust__feature-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+              </svg>
+            </div>
+            <div>
+              <h4>정식 인허가 업체</h4>
+              <p>사업자등록 및 각종 인허가를 완비한 신뢰할 수 있는 전문 업체입니다.</p>
+            </div>
+          </div>
+          <div class="trust__feature">
+            <div class="trust__feature-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10" />
+                <polyline points="12 6 12 12 16 14" />
+              </svg>
+            </div>
+            <div>
+              <h4>신속한 견적 및 시공</h4>
+              <p>24시간 내 견적 응답, 빠른 일정 조율로 고객의 시간을 아껴드립니다.</p>
+            </div>
+          </div>
+          <div class="trust__feature">
+            <div class="trust__feature-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path
+                  d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z" />
+              </svg>
+            </div>
+            <div>
+              <h4>고객 중심 서비스</h4>
+              <p>고객 만족을 최우선으로 해결될 때까지 책임지고 A/S를 지원합니다.</p>
+            </div>
+          </div>
+          <div class="trust__feature">
+            <div class="trust__feature-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="12" y1="1" x2="12" y2="23" />
+                <path d="M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6" />
+              </svg>
+            </div>
+            <div>
+              <h4>합리적인 가격</h4>
+              <p>숨겨진 비용 없이 견적 그대로 시공합니다. 투명한 가격 정책을 지킵니다.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== CONTACT ====== -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section__header" data-animate>
+        <span class="section__eyebrow">Contact</span>
+        <h2 class="section__title">언제든지 연락주세요</h2>
+        <p class="section__subtitle" style="margin-top: 1rem;">궁금한 점이 있으시면 편하게 연락주세요.<br>빠르고 친절하게 안내해드리겠습니다.</p>
+      </div>
+
+      <div class="contact__items" data-animate>
+        <!-- Phone -->
+        <a href="tel:010-4190-8040" class="contact__item"
+          style="display:flex; flex-direction:column; align-items:center; padding: 2.5rem; background: #fff; border-radius: var(--radius-xl); box-shadow: var(--shadow-sm); width: 100%; max-width: 300px; transition: var(--transition); border: 1px solid var(--clr-border);">
+          <div style="font-size: 2.5rem; margin-bottom: 1rem; color: var(--clr-dark);">📞</div>
+          <p style="font-size: 1.1rem; font-weight: 500; color: var(--clr-gray); margin-bottom: 0.5rem;">전화 상담</p>
+          <p style="font-size: 1.5rem; font-weight: 700; color: var(--clr-dark);">010-4190-8040</p>
+        </a>
+
+        <!-- Email -->
+        <a href="mailto:jjyjjy4189@hanmail.net" class="contact__item"
+          style="display:flex; flex-direction:column; align-items:center; padding: 2.5rem; background: #fff; border-radius: var(--radius-xl); box-shadow: var(--shadow-sm); width: 100%; max-width: 300px; transition: var(--transition); border: 1px solid var(--clr-border);">
+          <div style="font-size: 2.5rem; margin-bottom: 1rem; color: var(--clr-dark);">✉️</div>
+          <p style="font-size: 1.1rem; font-weight: 500; color: var(--clr-gray); margin-bottom: 0.5rem;">이메일 문의</p>
+          <p style="font-size: 1.15rem; font-weight: 700; color: var(--clr-dark);">jjyjjy4189@hanmail.net</p>
+        </a>
+
+        <!-- Hours -->
+        <div class="contact__item"
+          style="display:flex; flex-direction:column; align-items:center; padding: 2.5rem; background: #fff; border-radius: var(--radius-xl); box-shadow: var(--shadow-sm); width: 100%; max-width: 300px; border: 1px solid var(--clr-border);">
+          <div style="font-size: 2.5rem; margin-bottom: 1rem; color: var(--clr-dark);">⏰</div>
+          <p style="font-size: 1.1rem; font-weight: 500; color: var(--clr-gray); margin-bottom: 0.5rem;">운영시간</p>
+          <p style="font-size: 1.25rem; font-weight: 600; color: var(--clr-dark); line-height: 1.4;">평일·주말<br>09:00 -
+            18:00</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <span class="logo__text" style="font-size:1.5rem">일<span class="logo__accent">출</span></span>
+          <p>철거·인테리어·잡철 전문 업체<br>정식 사업자 등록 업체</p>
+        </div>
+        <div class="footer__links">
+          <a href="#services">서비스</a>
+          <a href="#gallery">시공 사례</a>
+          <a href="#trust">회사 소개</a>
+          <a href="estimate.html">견적 신청</a>
+          <a href="#contact">문의</a>
+        </div>
+        <div class="footer__contact">
+          <a href="tel:010-4190-8040">📞 010-4190-8040</a>
+          <a href="mailto:jjyjjy4189@hanmail.net">✉️ jjyjjy4189@hanmail.net</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>© 2026 일출. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ====== FLOATING MENU ====== -->
+  <div class="floating-menu" id="floatingMenu">
+    <a href="estimate.html" class="floating-menu__item floating-menu__item--primary" title="견적 신청">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path
+          d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
+      </svg>
+      <span>견적 신청</span>
+    </a>
+    <a href="tel:010-4190-8040" class="floating-menu__item" title="전화 문의">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path
+          d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.7 9.65a19.79 19.79 0 01-3.07-8.67A2 2 0 012.6 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.56a16 16 0 006.13 6.13l.96-.96a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" />
+      </svg>
+      <span>전화 문의</span>
+    </a>
+    <a href="#gallery" class="floating-menu__item" title="시공 사례">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <rect x="3" y="3" width="18" height="18" rx="2" />
+        <circle cx="8.5" cy="8.5" r="1.5" />
+        <polyline points="21 15 16 10 5 21" />
+      </svg>
+      <span>시공 사례</span>
+    </a>
+    <button class="floating-menu__item floating-menu__top" id="scrollTop" title="위로 가기">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <polyline points="18 15 12 9 6 15" />
+      </svg>
+      <span>위로</span>
+    </button>
+  </div>
+
+  <!-- ====== IMAGE MODAL ====== -->
+  <div class="modal" id="imageModal">
+    <div class="modal__backdrop" id="modalBackdrop"></div>
+    <div class="modal__content">
+      <button class="modal__close" id="modalClose">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18" />
+          <line x1="6" y1="6" x2="18" y2="18" />
+        </svg>
+      </button>
+      <img src="" alt="" class="modal__img" id="modalImg" />
+    </div>
+  </div>
+
+  <!-- ====== TOAST ====== -->
+  <div class="toast" id="toast"></div>
+
+  <script type="module" src="main.js"></script>
+</body>
+
+</html>
